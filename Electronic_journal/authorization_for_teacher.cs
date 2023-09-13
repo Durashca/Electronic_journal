@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Electronic_journal
 {
-    public partial class Form1 : Form
+    public partial class authorization_for_teacher : Form
     {
-        public Form1()
+        public authorization_for_teacher()
         {
             InitializeComponent();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
