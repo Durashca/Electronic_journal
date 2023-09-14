@@ -16,7 +16,7 @@ namespace Electronic_journal
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new authorization());
+            Application.Run(new authorization1());
         }
     }
 }

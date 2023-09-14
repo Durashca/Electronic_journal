@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Electronic_journal", "Electronic_journal\Electronic_journal.csproj", "{696AE8B9-2340-4943-A90B-6F234250C197}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proekt_Electronic_journal", "Electronic_journal\Proekt_Electronic_journal.csproj", "{696AE8B9-2340-4943-A90B-6F234250C197}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

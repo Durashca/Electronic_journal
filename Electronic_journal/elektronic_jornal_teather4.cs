@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace Electronic_journal
 {
-    public partial class authorization_for_student : Form
+    public partial class elektronic_jornal_teather4 : Form
     {
-        public authorization_for_student()
+        public elektronic_jornal_teather4()
         {
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
