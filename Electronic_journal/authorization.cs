@@ -17,6 +17,7 @@ namespace Electronic_journal
         {
             InitializeComponent();
         }
+
         // TODO придумай что нибудь с закрытием главной формы или ее скрытие, но что бы она не оставалась висеть на фоне
         private void button2_Click(object sender, EventArgs e)
         {
