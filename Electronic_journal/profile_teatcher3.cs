@@ -19,7 +19,8 @@ namespace Electronic_journal
 
         private void profile_teatcher_Load(object sender, EventArgs e)
         {
-
+            authorization_for_teacher auth_teacher = new authorization_for_teacher();
+            auth_teacher.Close();
         }
     }
 }

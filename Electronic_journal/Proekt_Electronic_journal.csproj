@@ -46,23 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="authorization_for_student2.cs">
+    <Compile Include="authorization_for_student.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="authorization_for_student2.Designer.cs">
-      <DependentUpon>authorization_for_student2.cs</DependentUpon>
+    <Compile Include="authorization_for_student.Designer.cs">
+      <DependentUpon>authorization_for_student.cs</DependentUpon>
     </Compile>
-    <Compile Include="authorization_for_teacher2.cs">
+    <Compile Include="authorization_for_teacher.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="authorization_for_teacher2.Designer.cs">
-      <DependentUpon>authorization_for_teacher2.cs</DependentUpon>
+    <Compile Include="authorization_for_teacher.Designer.cs">
+      <DependentUpon>authorization_for_teacher.cs</DependentUpon>
     </Compile>
-    <Compile Include="authorization1.cs">
+    <Compile Include="authorization.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include=".Designer.cs">
-      <DependentUpon>authorization1.cs</DependentUpon>
+      <DependentUpon>authorization.cs</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="elektronic_jornal_student4.cs">
@@ -91,14 +91,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="authorization_for_student2.resx">
-      <DependentUpon>authorization_for_student2.cs</DependentUpon>
+    <EmbeddedResource Include="authorization_for_student.resx">
+      <DependentUpon>authorization_for_student.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="authorization_for_teacher2.resx">
-      <DependentUpon>authorization_for_teacher2.cs</DependentUpon>
+    <EmbeddedResource Include="authorization_for_teacher.resx">
+      <DependentUpon>authorization_for_teacher.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="authorization1.resx">
-      <DependentUpon>authorization1.cs</DependentUpon>
+    <EmbeddedResource Include="authorization.resx">
+      <DependentUpon>authorization.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="elektronic_jornal_student4.resx">
       <DependentUpon>elektronic_jornal_student4.cs</DependentUpon>
