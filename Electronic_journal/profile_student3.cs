@@ -17,10 +17,25 @@ namespace Electronic_journal
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
+       
 
+        private void profile_student3_Load(object sender, EventArgs e)
+        {
+            // Получаем размер экрана
+            int screenWidth = Screen.PrimaryScreen.Bounds.Width;
+            int screenHeight = Screen.PrimaryScreen.Bounds.Height;
+
+            // Получаем размер формы
+            int formWidth = this.Width;
+            int formHeight = this.Height;
+
+            // Вычисляем координаты для размещения формы посередине экрана
+            int left = (screenWidth - formWidth) / 2;
+            int top = (screenHeight - formHeight) / 2;
+
+            // Устанавливаем позицию формы
+            this.StartPosition = FormStartPosition.Manual;
+            this.Location = new Point(left, top);
         }
     }
 }
