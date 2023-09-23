@@ -19,8 +19,21 @@ namespace Electronic_journal
 
         private void profile_teatcher_Load(object sender, EventArgs e)
         {
-            authorization_for_teacher auth_teacher = new authorization_for_teacher();
-            auth_teacher.Close();
+            // Получаем размер экрана
+            int screenWidth = Screen.PrimaryScreen.Bounds.Width;
+            int screenHeight = Screen.PrimaryScreen.Bounds.Height;
+
+            // Получаем размер формы
+            int formWidth = this.Width;
+            int formHeight = this.Height;
+
+            // Вычисляем координаты для размещения формы посередине экрана
+            int left = (screenWidth - formWidth) / 2;
+            int top = (screenHeight - formHeight) / 2;
+
+            // Устанавливаем позицию формы
+            this.StartPosition = FormStartPosition.Manual;
+            this.Location = new Point(left, top);
         }
     }
 }
