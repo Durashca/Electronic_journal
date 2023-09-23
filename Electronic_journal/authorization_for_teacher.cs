@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SQLite;
 
 namespace Electronic_journal
 {
@@ -43,18 +44,37 @@ namespace Electronic_journal
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (teacher_login.Text == "admin" || teacher_login.Text == "admin")
+            SQLiteConnection con = new SQLiteConnection("Data Source=C:\\Users\\user\\Desktop\\SQlite\\simplefolks.sqlite");
+            try
             {
-               
-                this.Close();
-                profile_teatcher3 profile_teacher = new profile_teatcher3();      
-                profile_teacher.Show();
-
-            } else
-            {
-                MessageBox.Show("Проверьте введённые данные", "Ошибка");
+                con.Open();
             }
-            
+            catch
+            {
+                MessageBox.Show("ошибка", "Ошибка");
+                throw;
+            }
+            string login = teacher_login.Text;
+            string pass = teacher_password.Text;
+            SQLiteDataReader sQLiteDataReader;
+            SQLiteCommand sQLiteCommand = con.CreateCommand();
+            sQLiteCommand.CommandText = $"SELECT COUNT (*) FROM inmates WHERE first_name = '{login}' and pass = '{pass}' ";
+
+            sQLiteDataReader = sQLiteCommand.ExecuteReader();
+            while (sQLiteDataReader.Read())
+            {
+
+                if (sQLiteDataReader.GetInt32(0) == 1)
+                {
+                    profile_teatcher3 profile_Teatcher3 = new profile_teatcher3();
+                    profile_Teatcher3.Show();
+                    this.Close();
+                }
+                else { MessageBox.Show("неправильно"); }
+
+            }
+            con.Close();
+
         }
     }
 }

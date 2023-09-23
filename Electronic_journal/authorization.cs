@@ -32,6 +32,7 @@ namespace Electronic_journal
         {
             authorization_for_student authorization_For_Student = new authorization_for_student();
             authorization_For_Student.ShowDialog();
+            this.Close();
 
         }
 

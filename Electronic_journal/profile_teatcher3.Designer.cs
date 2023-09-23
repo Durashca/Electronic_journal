@@ -45,6 +45,7 @@
             this.button1.TabIndex = 3;
             this.button1.Text = "Электронный журнал";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -82,7 +83,7 @@
             this.button4.Text = "...";
             this.button4.UseVisualStyleBackColor = false;
             // 
-            // profile_teatcher
+            // profile_teatcher3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -92,7 +93,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "profile_teatcher";
+            this.Name = "profile_teatcher3";
             this.Text = "Профиль учителя";
             this.Load += new System.EventHandler(this.profile_teatcher_Load);
             this.ResumeLayout(false);

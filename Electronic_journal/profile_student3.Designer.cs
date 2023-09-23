@@ -39,10 +39,10 @@
             this.button4.BackColor = System.Drawing.SystemColors.Highlight;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(60, 206);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Location = new System.Drawing.Point(80, 254);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(184, 22);
+            this.button4.Size = new System.Drawing.Size(245, 27);
             this.button4.TabIndex = 10;
             this.button4.Text = "...";
             this.button4.UseVisualStyleBackColor = false;
@@ -52,10 +52,10 @@
             this.button3.BackColor = System.Drawing.SystemColors.Highlight;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(59, 172);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Location = new System.Drawing.Point(79, 212);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(184, 22);
+            this.button3.Size = new System.Drawing.Size(245, 27);
             this.button3.TabIndex = 9;
             this.button3.Text = "...";
             this.button3.UseVisualStyleBackColor = false;
@@ -65,10 +65,10 @@
             this.button2.BackColor = System.Drawing.SystemColors.Highlight;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(59, 138);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Location = new System.Drawing.Point(79, 170);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(184, 22);
+            this.button2.Size = new System.Drawing.Size(245, 27);
             this.button2.TabIndex = 8;
             this.button2.Text = "Посмотреть домашнее задание";
             this.button2.UseVisualStyleBackColor = false;
@@ -78,25 +78,26 @@
             this.button1.BackColor = System.Drawing.SystemColors.Highlight;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(59, 104);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Location = new System.Drawing.Point(79, 128);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(184, 22);
+            this.button1.Size = new System.Drawing.Size(245, 27);
             this.button1.TabIndex = 7;
             this.button1.Text = "Посмотреть оценки";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // profile_student3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(302, 366);
+            this.ClientSize = new System.Drawing.Size(403, 450);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "profile_student3";
             this.Text = "профиль студента";
             this.Load += new System.EventHandler(this.profile_student3_Load);

@@ -37,5 +37,10 @@ namespace Electronic_journal
             this.StartPosition = FormStartPosition.Manual;
             this.Location = new Point(left, top);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
